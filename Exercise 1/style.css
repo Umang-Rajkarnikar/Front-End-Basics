@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    height: 70pt;
+    background-color: hsl(1deg, 96%, 90%);
+  }
+
+  .container {
+    display: flex;
+    
+  }
+
+  .left-side{
+    width: auto;
+    background-color: hsl(299deg, 100%, 90%);
+    vertical-align: middle;
+
+  }
+
+  .content{
+    background-color: hsl(60deg, 100%, 90%);
+    width: 100%;
+    vertical-align: middle;
+
+  }
+
+  .right-side{
+    width: 100pt;
+    background-color: hsl(180deg, 100%, 90%);
+    padding: 10px;
+  }
+
+  footer{
+    display: block;
+    background-color: hsl(241deg, 96%, 90%);
+    height: auto;
+    font-weight: bolder;
+    font-size: xx-large;
+  }
