@@ -1,0 +1,73 @@
+.form{
+    background-color: hsl(220deg 10% 94%);
+    margin: 0% 20% 0% 20%;
+    padding-bottom: 50px;
+}
+
+.form-header{
+    text-align: center;
+    font-family: Arial;
+    padding-top: 50px;
+}
+
+label{
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+input{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border-width:1px;
+    border-color: hsl(220deg 0% 90%);
+    border-style: double;
+    border-right: none;
+    padding-left: 12px;
+}
+
+.button{
+    background-color:hsl(88deg 66% 55%);
+    border: none;
+    color: white;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 170px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 10px;
+}
+
+textarea{
+    padding: 5px;
+    margin-bottom: 10px;
+    border-width:1px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: hsl(220deg 0% 90%);
+    border-style: double;
+    border-right: none;
+    padding-left: 12px;
+}
+
+.form-header h1{
+    font-weight: 500;
+    color: hsl(245deg 9% 30%);
+}
+
+.form-header h3{
+    color: hsl(218deg 5% 56%);
+}
+
+.form-group{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column  ;
+}
