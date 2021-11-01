@@ -50,6 +50,7 @@ textarea{
     margin-bottom: 10px;
     border-width:1px;
     font-size: 14px;
+    padding-bottom: 150px;
     font-family: 'Times New Roman', Times, serif;
     border-color: hsl(220deg 0% 90%);
     border-style: double;
